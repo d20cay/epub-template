@@ -1,0 +1,51 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>xxx content.opf dc:title</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Twain, Mark">xxx content.opf dc:creator</dc:creator>
+    <dc:identifier id="BookId">B581A839-681B-4263-AFB5-BB85F1E58147</dc:identifier>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover.png"/>
+    <meta name="calibre:title_sort" content="Adventures of Tom Sawyer, The"/>
+  </metadata>
+  <manifest>
+    <item id="cover" href="parts/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="dedication" href="parts/dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preface" href="parts/preface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="parts/toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-01" href="parts/chapter-01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="conclusion" href="parts/conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="notes" href="parts/notes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style" href="styles/style.css" media-type="text/css"/>
+    <item id="cover.png" href="img/cover.png" media-type="image/png"/>
+    <item id="NotoSerif-Black.ttf" href="fonts/NotoSerif-Black.ttf" media-type="application/x-font-ttf"/>
+    <item id="NotoSerif-BlackItalic.ttf" href="fonts/NotoSerif-BlackItalic.ttf" media-type="application/x-font-ttf"/>
+    <item id="NotoSerif-Bold.ttf" href="fonts/NotoSerif-Bold.ttf" media-type="application/x-font-ttf"/>
+    <item id="NotoSerif-BoldItalic.ttf" href="fonts/NotoSerif-BoldItalic.ttf" media-type="application/x-font-ttf"/>
+    <item id="NotoSerif-Italic.ttf" href="fonts/NotoSerif-Italic.ttf" media-type="application/x-font-ttf"/>
+    <item id="NotoSerif-Regular.ttf" href="fonts/NotoSerif-Regular.ttf" media-type="application/x-font-ttf"/>
+  </manifest>
+  <!-- Defines the reading order with reference to ids in manifest. -->
+  <!-- linear="no" are only reachable through links. -->
+  <spine toc="ncx">
+    <itemref idref="cover"/>
+    <itemref idref="dedication"/>
+    <itemref idref="preface"/>
+    <itemref idref="toc"/>
+    <itemref idref="chapter-01"/>
+    <itemref idref="conclusion"/>
+    <itemref idref="notes"/>
+  </spine>
+  <!-- Gives semantic hints for older readers (epub v2) -->
+  <!-- Valid type values: cover, title-page, toc, index, glossary, acknowledgements, bibliography, colophon (publishing details), copyright-page, dedication, foreword, loi (list of illustrations), lot (list of tables), notes, preface, text (first page of text) -->
+  <guide>
+    <reference type="cover" title="Cover" href="parts/cover.xhtml"/>
+    <reference type="dedication" title="Dedication" href="parts/dedication.xhtml"/>
+    <reference type="preface" title="Preface" href="parts/preface.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="parts/toc.xhtml"/>
+    <reference type="text" title="Content" href="parts/chapter-01.xhtml"/>
+    <reference type="notes" title="Notes" href="parts/notes.xhtml"/>
+  </guide>
+</package>
+
