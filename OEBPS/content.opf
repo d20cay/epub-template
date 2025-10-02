@@ -1,16 +1,17 @@
 <?xml version="1.0"  encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <dc:title>xxx content.opf dc:title</dc:title>
-    <dc:creator opf:role="aut" opf:file-as="Twain, Mark">xxx content.opf dc:creator</dc:creator>
+    <dc:title>xxx content.opf The Title</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="xxx Author">xxx content.opf dc:creator</dc:creator>
     <dc:identifier id="BookId">B581A839-681B-4263-AFB5-BB85F1E58147</dc:identifier>
     <dc:language>en</dc:language>
     <meta name="cover" content="cover.png"/>
-    <meta name="calibre:title_sort" content="Adventures of Tom Sawyer, The"/>
+    <meta name="calibre:title_sort" content="Title, The"/>
   </metadata>
   <manifest>
     <item id="cover" href="parts/cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="dedication" href="parts/dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon" href="parts/colophon.xhtml" media-type="application/xhtml+xml"/>
     <item id="preface" href="parts/preface.xhtml" media-type="application/xhtml+xml"/>
     <item id="toc" href="parts/toc.xhtml" media-type="application/xhtml+xml"/>
     <item id="chapter-01" href="parts/chapter-01.xhtml" media-type="application/xhtml+xml"/>
@@ -30,6 +31,7 @@
   <!-- linear="no" are only reachable through links. -->
   <spine toc="ncx">
     <itemref idref="cover"/>
+    <itemref idref="colophon"/>
     <itemref idref="dedication"/>
     <itemref idref="preface"/>
     <itemref idref="toc"/>
@@ -41,6 +43,7 @@
   <!-- Valid type values: cover, title-page, toc, index, glossary, acknowledgements, bibliography, colophon (publishing details), copyright-page, dedication, foreword, loi (list of illustrations), lot (list of tables), notes, preface, text (first page of text) -->
   <guide>
     <reference type="cover" title="Cover" href="parts/cover.xhtml"/>
+    <reference type="colophon" title="Publishing Details" href="parts/colophon.xhtml"/>
     <reference type="dedication" title="Dedication" href="parts/dedication.xhtml"/>
     <reference type="preface" title="Preface" href="parts/preface.xhtml"/>
     <reference type="toc" title="Table of Contents" href="parts/toc.xhtml"/>

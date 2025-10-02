@@ -67,7 +67,6 @@ h1 + p, .chapter__head + p {
     color : #000000;
     text-indent : 1.5em;
     margin : 0px;
-
 }
 .text--noindent {
     text-indent: 0;
@@ -83,6 +82,9 @@ h1 + p, .chapter__head + p {
 }
 .text--small-caps {
     font-variant: small-caps;
+}
+.text--small {
+    font-size: .75em;
 }
 
 .quote { /* Best used with <blockquote> */

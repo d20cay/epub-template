@@ -4,3 +4,6 @@
 # Compression Output Folder
 out/
 
+# Mac
+.DS_Store
+
