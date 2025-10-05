@@ -1,38 +1,26 @@
 @font-face {
-    font-family: "Noto";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../fonts/NotoSerif-Black.ttf");
-}
-@font-face {
-    font-family: "Noto";
-    font-style: italic;
-    font-weight: 900;
-    src: url("../fonts/NotoSerif-BlackItalic.ttf");
-}
-@font-face {
-    font-family: "Noto";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/NotoSerif-Bold.ttf");
-}
-@font-face {
-    font-family: "Noto";
-    font-style: italic;
-    font-weight: 700;
-    src: url("../fonts/NotoSerif-BoldItalic.ttf");
-}
-@font-face {
-    font-family: "Noto";
+    font-family: "Libre Baskerville";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/NotoSerif-Regular.ttf");
+    src: url("../fonts/LibreBaskerville-Regular.otf");
 }
 @font-face {
-    font-family: "Noto";
+    font-family: "Libre Baskerville";
     font-style: italic;
     font-weight: 400;
-    src: url("../fonts/NotoSerif-Italic.ttf");
+    src: url("../fonts/LibreBaskerville-Italic.otf");
+}
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/LibreBaskerville-Bold.otf");
+}
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/LibreBaskerville-BoldItalic.otf");
 }
 
 @page {
@@ -41,6 +29,7 @@
 
 html body {
     margin: 0;
+    font-family: "Libre Baskerville", serif;
 }
 
 .chapter {
@@ -56,17 +45,17 @@ h1 + p, .chapter__head + p {
 }
 
 .text {
-    font-family : "Noto", serif;
-    font-weight : 400;
-    font-style : normal;
-    font-size : 1em;
-    text-decoration : none;
-    font-variant : normal;
-    line-height : 1.2;
-    text-align : justify;
-    color : #000000;
-    text-indent : 1.5em;
-    margin : 0px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    text-decoration: none;
+    font-variant: normal;
+    line-height: 1.2;
+    text-align: justify;
+    color: #000000;
+    text-indent: 1.5em;
+    margin: 0px;
 }
 .text--noindent {
     text-indent: 0;
@@ -76,9 +65,6 @@ h1 + p, .chapter__head + p {
 }
 .text--bold {
     font-weight: 700;
-}
-.text--black {
-    font-weight: 900;
 }
 .text--small-caps {
     font-variant: small-caps;

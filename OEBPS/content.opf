@@ -20,13 +20,11 @@
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="style" href="styles/style.css" media-type="text/css"/>
     <item id="cover.png" href="img/cover.png" media-type="image/png"/>
-    <item id="NotoSerif-Black.ttf" href="fonts/NotoSerif-Black.ttf" media-type="application/x-font-ttf"/>
-    <item id="NotoSerif-BlackItalic.ttf" href="fonts/NotoSerif-BlackItalic.ttf" media-type="application/x-font-ttf"/>
-    <item id="NotoSerif-Bold.ttf" href="fonts/NotoSerif-Bold.ttf" media-type="application/x-font-ttf"/>
-    <item id="NotoSerif-BoldItalic.ttf" href="fonts/NotoSerif-BoldItalic.ttf" media-type="application/x-font-ttf"/>
-    <item id="NotoSerif-Italic.ttf" href="fonts/NotoSerif-Italic.ttf" media-type="application/x-font-ttf"/>
-    <item id="NotoSerif-Regular.ttf" href="fonts/NotoSerif-Regular.ttf" media-type="application/x-font-ttf"/>
-  </manifest>
+    <item id="LibreBaskerville-Regular.otf" href="fonts/LibreBaskerville-Regular.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-Italic.otf" href="fonts/LibreBaskerville-Italic.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-Bold.otf" href="fonts/LibreBaskerville-Bold.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-BoldItalic.otf" href="fonts/LibreBaskerville-BoldItalic.otf" media-type="application/x-font-otf"/>
+ </manifest>
   <!-- Defines the reading order with reference to ids in manifest. -->
   <!-- linear="no" are only reachable through links. -->
   <spine toc="ncx">
